@@ -16,3 +16,8 @@ header {
   background-position: left;
   padding-bottom: 10rem;
 }
+
+h2 {
+font-family: 'Oswald';
+font-weight: 700;
+}
