@@ -3,9 +3,10 @@ body {
   font-weight: 400;
 }
 
-.navbar-brand h1 {
+.container span {
 font-family: 'Oswald';
-font-weight: 400;
+font-size: 1.5rem;
+font-weight: 500;
 font-weight: bold;
 }
 
@@ -20,6 +21,8 @@ header {
 h2 {
 font-family: 'Oswald';
 font-weight: 700;
+font-size: 3.25rem;
+padding-top: 20px;
 }
 
 .carousel-indicators {
@@ -30,4 +33,39 @@ font-weight: 700;
   width: 10px;
   height: 10px;
   border-radius: 50%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .col-auto .card {
+    width: 11rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .col-auto .card {
+    width: 12rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .col-auto .card {
+    width: 17rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .col-auto .card {
+    width: 19rem;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .col-auto .card {
+    width: 18rem;
+  }
 }

@@ -20,24 +20,25 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#">
+      <span class="navbar-brand mb-0 h1">Guillermo Menesse</span>
+      <!-- <a class="navbar-brand" href="#">
         <h1>Guillermo Menesse</h1>
-      </a>
+      </a> -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link text-white" href="#work">Trabajos<span class="sr-only">(current)</span></a>
+            <a class="nav-link text-secondary" href="#work">Trabajos<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#about">Acerca de mí</a>
+            <a class="nav-link text-secondary" href="#about">Acerca de mí</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#contact">Contacto</a>
+            <a class="nav-link text-secondary" href="#contact">Contacto</a>
           </li>
         </ul>
       </div>
@@ -45,234 +46,246 @@
   </nav>
 
   <header class="hero text-light text-right pt-5 mt-5">
-    <div class="container">
+    <div class="container" style="margin-bottom: 50px">
       <h1 class="display-1 font-weight-bold my-5">Sky's the limit!</h1>
       <p class="my-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <a href="#work" class="btn btn-outline-primary btn-lg mr-4">Trabajos</a>
-      <a href="#contact" class="btn btn-primary btn-lg">Contacto</a>
+      <a href="#work" class="btn btn-outline-light btn-lg mr-4">Trabajos</a>
+      <a href="#contact" class="btn btn-light btn-lg">Contacto</a>
     </div>
   </header>
+
+
 
   <!-- Trabajos realizados -->
   <section id="work" class="container-fluid bg-secondary">
     <div class="container my-3 p-5">
-    <h2 class="display-4 font-weight-bold text-center p-5 text-white">Mis Trabajos</h2>
-    <div class="card-deck">
+      <h2 class="text-center text-white">Mis Trabajos</h2>
+      <div class="container-fluid mt-4">
+        <div class="row justify-content-center">
 
-  <!-- Card Meet_Coffee Page -->
-      <div class="card m-3" href="#" data-toggle="modal" data-target="#Meet_Coffee_Full">
-        <img src="assets/img/meet_coffee.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Meet&Coffe</h5>
-          <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien.</p>
-        </div>
-      </div>
-      <!-- Modal Iguana_Page_Full -->
-      <div class="modal fade" id="Meet_Coffee_Full" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Ejemplo Meet&Coffee Page</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <img src="assets/img/full/meet_coffee_full.png" class="img-fluid my-3" alt="Iguana">
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-  <!-- Card Iguana Page -->
-      <div class="card m-3" href="#" data-toggle="modal" data-target="#Iguana_Full">
-        <img src="assets/img/iguana_page.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Iguana Page</h5>
-          <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien.</p>
-          <a href="#" data-toggle="modal" data-target="#Iguana_Full"></a>
-        </div>
-      </div>
-      <!-- Modal Iguana_Page_Full -->
-      <div class="modal fade" id="Iguana_Full" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Ejemplo Iguana Page</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <img src="assets/img/full/iguana_full.png" class="img-fluid my-3" alt="Iguana">
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-  <!-- Card Suricata Page -->
-      <div class="card m-3" href="#" data-toggle="modal" data-target="#Suricata_Full">
-        <img src="assets/img/suricata.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h3 class="card-title">Suricata</h3>
-          <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien.</p>
-        </div>
-      </div>
-    </div>
-    <!-- Modal Suricata Full -->
-    <div class="modal fade" id="Suricata_Full" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Ejemplo Suricata Page</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <img src="assets/img/full/suricata_full.png" class="img-fluid my-3" alt="Suricata_Full">
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="card-deck">
-  <!-- Card Cuppon Page -->
-      <div class="card m-3" href="#" data-toggle="modal" data-target="#Cuppon_Full">
-        <img src="assets/img/cuppon.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Cuppon</h5>
-          <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien.</p>
-        </div>
-      </div>
-      <!-- Modal Cuppon Full -->
-      <div class="modal fade" id="Cuppon_Full" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Ejemplo Cuppon Page</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <img src="assets/img/full/cuppon_full.png" class="img-fluid my-3" alt="Cuppon_Full">
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-  <!-- Card Ricomida Page -->
-      <div class="card m-3" href="#" data-toggle="modal" data-target="#Ricomida_Full">
-        <img src="assets/img/ricomida.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Ricomida</h5>
-          <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien.</p>
-        </div>
-      </div>
-      <!-- Modal Cuppon Full -->
-      <div class="modal fade" id="Ricomida_Full" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Ejemplo Ricomida Page</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <img src="assets/img/full/ricomida_full.png" class="img-fluid my-3" alt="Ricomida_Full">
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-  <!-- Card DMark Page -->
-      <div class="card m-3" href="#" data-toggle="modal" data-target="#DMark_Full">
-        <img src="assets/img/dmark.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">DMark</h5>
-          <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien.</p>
-        </div>
-      </div>
-      <!-- Modal Cuppon Full -->
-      <div class="modal fade" id="DMark_Full" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Ejemplo DMark Page</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <img src="assets/img/dmark.png" class="img-fluid my-3" alt="DMark_Full">
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-<!-- Carrusel con logos -->
-  <div class="container my-5 py-3 bg-secondary">
-    <div class="row">
-      <div class="col-4 p-4 text-right">
-        <h2 class="text-white">Realizo trabajos en:</h2>
-      </div>
-
-      <div class="col-8 bg-secondary text-white rounded pt-4 pb-5">
-        <div id="blogCarousel" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#blogCarousel" data-slide-to="1"></li>
-          </ol>
-
-          <div class="carousel-inner text-center">
-            <div class="carousel-item active">
-              <div class="row">
-                <div class="col-4">
-                  <i class="fab fa-html5 fa-3x" data-trigger="hover" data-container="body" data-toggle="popover" data-placement="bottom" data-content="HTML5"></i>
-                </div>
-                <div class="col-4">
-                  <i class="fab fa-css3-alt fa-3x" data-trigger="hover" data-container="body" data-toggle="popover" data-placement="bottom" data-content="CSS"></i>
-                </div>
-                <div class="col-4">
-                  <i class="fab fa-bootstrap fa-3x" data-trigger="hover" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Bootstrap"></i>
-                </div>
-
+          <!-- Card Meet_Coffee Page -->
+          <div class="col-auto mb-3">
+            <div class="card" href="#" data-toggle="modal" data-target="#Meet_Coffee_Full">
+              <img src="assets/img/meet_coffee.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Meet&Coffe</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien.</h6>
               </div>
             </div>
-            <div class="carousel-item">
-              <div class="row">
-                <div class="col-4">
-                  <i class="fab fa-js fa-3x" data-trigger="hover" data-container="body" data-toggle="popover" data-placement="bottom" data-content="JavaScript"></i>
+          </div>
+          <!-- Modal Meet_Coffee_Full -->
+          <div class="modal fade" id="Meet_Coffee_Full" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Ejemplo Meet&Coffee Page</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
                 </div>
-                <div class="col-4">
-                  <i class="fab fa-apple fa-3x" data-trigger="hover" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Apple"></i>
+                <div class="modal-body">
+                  <img src="assets/img/full/meet_coffee_full.png" class="img-fluid my-3" alt="Iguana">
                 </div>
-                <div class="col-4">
-                  <i class="fab fa-windows fa-3x" data-trigger="hover" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Windows"></i>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
                 </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card Iguana Page -->
+          <div class="col-auto mb-3">
+            <div class="card" href="#" data-toggle="modal" data-target="#Iguana_Full">
+              <img src="assets/img/iguana_page.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Iguana Pagee</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien.</h6>
+              </div>
+            </div>
+          </div>
+          <!-- Modal Iguana_Page_Full -->
+          <div class="modal fade" id="Iguana_Full" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Ejemplo Iguana Page</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="assets/img/full/iguana_full.png" class="img-fluid my-3" alt="Iguana">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      <!-- Card Suricata Page -->
+          <div class="col-auto mb-3">
+            <div class="card" href="#" data-toggle="modal" data-target="#Suricata_Full">
+             <img src="assets/img/suricata.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Suricata</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien./h6>
+              </div>
+            </div>
+          </div>
+          <!-- Modal Suricata Full -->
+          <div class="modal fade" id="Suricata_Full" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Ejemplo Suricata Page</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="assets/img/full/suricata_full.png" class="img-fluid my-3" alt="Suricata_Full">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      <!-- Card Cuppon Page -->
+          <div class="col-auto mb-3">
+            <div class="card" href="#" data-toggle="modal" data-target="#Cuppon_Full">
+             <img src="assets/img/cuppon.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Cuppon</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien.</h6>
+              </div>
+            </div>
+          </div>
+          <!-- Modal Cuppon Full -->
+          <div class="modal fade" id="Cuppon_Full" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Ejemplo Cuppon Page</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="assets/img/full/cuppon_full.png" class="img-fluid my-3" alt="Cuppon_Full">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      <!-- Card Ricomida Page -->
+          <div class="col-auto mb-3">
+            <div class="card" href="#" data-toggle="modal" data-target="#Ricomida_Full">
+             <img src="assets/img/ricomida.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Ricomida</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien.</h6>
+              </div>
+            </div>
+          </div>
+          <!-- Modal Cuppon Full -->
+          <div class="modal fade" id="Ricomida_Full" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Ejemplo Ricomida Page</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="assets/img/full/ricomida_full.png" class="img-fluid my-3" alt="Ricomida_Full">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      <!-- Card DMark Page -->
+          <div class="col-auto mb-3">
+            <div class="card" href="#" data-toggle="modal" data-target="#DMark_Full">
+             <img src="assets/img/dmark.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">DMark</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien.</h6>
+              </div>
+            </div>
+          </div>
+          <!-- Modal Cuppon Full -->
+          <div class="modal fade" id="DMark_Full" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Ejemplo DMark Page</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="assets/img/dmark.png" class="img-fluid my-3" alt="DMark_Full">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        </div>
+
+
+        </div>
+  </section>
+
+
+  <!-- Carrusel con logos -->
+  <div class="container my-5 py-3 bg-secondary">
+    <h2 class="text-white text-center">Realizo trabajos en</h2>
+    <div class="bg-secondary text-white rounded pt-4 pb-5">
+      <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#blogCarousel" data-slide-to="1"></li>
+        </ol>
+
+        <div class="carousel-inner text-center">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-4">
+                <i class="fab fa-html5 fa-3x" data-trigger="hover" data-container="body" data-toggle="popover" data-placement="bottom" data-content="HTML5"></i>
+              </div>
+              <div class="col-4">
+                <i class="fab fa-css3-alt fa-3x" data-trigger="hover" data-container="body" data-toggle="popover" data-placement="bottom" data-content="CSS"></i>
+              </div>
+              <div class="col-4">
+                <i class="fab fa-bootstrap fa-3x" data-trigger="hover" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Bootstrap"></i>
+              </div>
+
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-4">
+                <i class="fab fa-js fa-3x" data-trigger="hover" data-container="body" data-toggle="popover" data-placement="bottom" data-content="JavaScript"></i>
+              </div>
+              <div class="col-4">
+                <i class="fab fa-apple fa-3x" data-trigger="hover" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Apple"></i>
+              </div>
+              <div class="col-4">
+                <i class="fab fa-windows fa-3x" data-trigger="hover" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Windows"></i>
               </div>
             </div>
           </div>
@@ -281,34 +294,45 @@
     </div>
   </div>
 
+
   <!-- Acerca de mí -->
   <section id="about" class="container-fluid p-5 bg-dark d-none d-sm-block">
-    <h2 class="display-4 font-weight-bold text-center my-4 text-white">Acerca de mí</h2>
-    <div class="card-deck">
-      <div class="card">
-        <img src="assets/img/yo_1.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Operador Mesa de Dinero</h5>
-          <p class="card-text">Ingeniero en Finanzas, con una fuerte orientación comercial y del trabajo bajo presión. Actualmente me desempeño como Operador de Mesa en Itaú Corredores de Bolsa Ltda.</p>
-          <a href="#" class="btn btn-outline-secondary mr-4" data-toggle="modal" data-target="#Operador">Ver más</a>
-        </div>
+    <h2 class="display-4 font-weight-bold text-center mb-4 text-white">Acerca de mí</h2>
+    <div class="row justify-content-center">
+
+      <div class="col-auto mb-3">
+          <div class="card" style="width: 18rem;">
+            <img src="assets/img/yo_1.jpg" class="card-img-top" alt="..." width="100" height="280">
+              <div class="card-body">
+                  <h5 class="card-title">Operador Mesa de Dinero</h5>
+                  <p class="card-text">Ingeniero en Finanzas, con una fuerte orientación comercial y del trabajo bajo presión. Actualmente me desempeño como Operador de Mesa en Itaú Corredores de Bolsa Ltda.</p>
+                  <a href="#" class="btn btn-outline-secondary mr-4" data-toggle="modal" data-target="#Operador">Ver más</a>
+              </div>
+          </div>
       </div>
-      <div class="card">
-        <img src="assets/img/yo_2.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Programador VBA Excel</h5>
-          <p class="card-text">Mas de 10 años realizando mejoras y automatizaciones para empresas en Microsoft Office.</p>
-          <a href="#" class="btn btn-outline-secondary mr-4" data-toggle="modal" data-target="#Excel">Ver más</a>
-        </div>
+
+      <div class="col-auto mb-3">
+          <div class="card" style="width: 18rem;">
+            <img src="assets/img/yo_2.jpg" class="card-img-top" alt="..." width="100" height="280">
+              <div class="card-body">
+                  <h5 class="card-title">Programador VBA Excel</h5>
+                  <p class="card-text">Más de 10 años realizando mejoras y automatizaciones para distintas empresas en Microsoft Office. <span> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </span> </p>
+                  <a href="#" class="btn btn-outline-secondary mr-4" data-toggle="modal" data-target="#Excel">Ver más</a>
+              </div>
+          </div>
       </div>
-      <div class="card">
-        <img src="assets/img/yo_3.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">DJ | Productor de Eventos</h5>
-          <p class="card-text">El gusto y pasión por la música, me llevo a seguir un hobby que termino siendo una de las mejores etapas de mi vida.</p>
-          <a href="#" class="btn btn-outline-secondary mr-4" data-toggle="modal" data-target="#DJ">Ver más</a>
+
+        <div class="col-auto mb-3">
+            <div class="card" style="width: 18rem;">
+              <img src="assets/img/yo_3.jpg" class="card-img-top" alt="..." width="100" height="280">
+                <div class="card-body">
+                    <h5 class="card-title">DJ | Productor de Eventos</h5>
+                    <p class="card-text">El gusto y pasión por la música, me llevo a seguir un hobby que termino siendo una de las mejores etapas de mi vida. <span> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </span> </p>
+                    <a href="#" class="btn btn-outline-secondary mr-4" data-toggle="modal" data-target="#DJ">Ver más</a>
+                </div>
+            </div>
         </div>
-      </div>
+
     </div>
   </section>
 
@@ -391,11 +415,11 @@
     </div>
   </div>
 
-  <section id="contact" class="container my-5">
-    <h2 class="display-4 font-weight-bold text-center my-4">Contáctame</h2>
+  <section id="contact" class="container my-5 py-5">
+    <h2 class="text-center my-3">Contáctame</h2>
     <p class="text-center my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 
-    <div class="typeform-widget" data-url="https://billy088465.typeform.com/to/GD3arA" style="width: 100%; height: 500px;"></div>
+    <div class="typeform-widget" data-url="https://billy088465.typeform.com/to/GD3arA" style="width: 100%; height: 250px;"></div>
     <script>
       (function() {
         var qs, js, q, s, d = document,
@@ -418,10 +442,10 @@
 
   </section>
 
-  <footer class="bg-dark text-center align-middle text-white p-3">
+  <footer class="bg-light text-center align-middle text-dark p-3">
     <p>Guillermo Menesse 2019. Todos los derechos reservados.</p>
-    <a href="https://github.com/gmenesse/" target="_blank"><i class="fab fa-github-square fa-3x text-white"></i></a>
-    <a href="https://www.facebook.com/GMenesse" target="_blank"><i class="fab fa-facebook-square fa-3x text-white"></i></a>
+      <a href="https://github.com/gmenesse/" target="_blank"><i class="fab fa-github-square fa-3x text-dark" data-trigger="hover" data-container="body" data-toggle="popover" data-placement="bottom" data-content="GitHub"></i></a>
+      <a href="https://www.facebook.com/GMenesse" target="_blank"><i class="fab fa-facebook fa-3x text-dark" data-trigger="hover" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Facebook"></i></a>
   </footer>
 
   <!--jQuery 3.3.1-->
